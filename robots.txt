@@ -1,0 +1,43 @@
+# Robots.txt for NKR & Associates
+# https://nkrandassociates.com
+
+User-agent: *
+Allow: /
+Disallow: /admin/
+Disallow: /private/
+Disallow: /*.pdf$
+
+# Sitemap location
+Sitemap: https://nkrandassociates.com/sitemap.xml
+
+# Crawl delay (optional, to prevent server overload)
+Crawl-delay: 1
+
+# Specific bots
+User-agent: Googlebot
+Allow: /
+Crawl-delay: 0
+
+User-agent: Bingbot
+Allow: /
+Crawl-delay: 0
+
+User-agent: Slurp
+Allow: /
+
+# Social media bots
+User-agent: facebookexternalhit
+Allow: /
+
+User-agent: Twitterbot
+Allow: /
+
+User-agent: LinkedInBot
+Allow: /
+
+# Bad bots (optional - add as needed)
+User-agent: AhrefsBot
+Crawl-delay: 10
+
+User-agent: SemrushBot
+Crawl-delay: 10
