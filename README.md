@@ -81,7 +81,7 @@ Professional accounting and compliance services firm website with 7+ years of ex
 ```
 NKR-Associates/
 ├── index.html                      # Main website file
-├── index-1.html                    # Backup/alternative version
+├── coming-soon.html                # Coming Soon Page
 ├── sitemap.xml                     # XML sitemap for SEO
 ├── robots.txt                      # Search engine directives
 ├── .htaccess                       # Server configuration
@@ -193,9 +193,30 @@ npx serve
 
 © 2026 NKR & Associates. All rights reserved.
 
-## 👨‍💻 Developer
+## 👨‍💻 Developer & Credits
 
-Developed by [Suraj](https://github.com/thesurajdev)
+**Developed & Designed by:** [Suraj Kumar](https://github.com/thesurajdev)
+
+### 🌟 About the Developer
+- **GitHub:** [@thesurajdev](https://github.com/thesurajdev)
+- **Role:** Full Stack Developer & SEO Specialist
+- **Expertise:** Web Development, SEO Optimization, UI/UX Design
+
+### 💼 Development Contributions
+- ✅ Complete website design and development
+- ✅ Full-stack implementation (Frontend + Backend logic)
+- ✅ Comprehensive SEO optimization (Technical + On-page)
+- ✅ Structured data implementation (Schema.org)
+- ✅ Performance optimization and caching strategies
+- ✅ Mobile-first responsive design
+- ✅ WhatsApp integration and custom features
+- ✅ Security implementation and best practices
+
+### 🤝 Connect with Suraj
+[![GitHub](https://img.shields.io/badge/GitHub-thesurajdev-181717?style=flat&logo=github)](https://github.com/thesurajdev)
+[![Portfolio](https://img.shields.io/badge/Portfolio-Visit-blue?style=flat&logo=google-chrome)](https://surajdev.com)
+
+*For web development and SEO services, feel free to reach out!*
 
 ## 📝 Changelog
 
@@ -243,3 +264,18 @@ See [SEO-OPTIMIZATION-REPORT.md](SEO-OPTIMIZATION-REPORT.md) for detailed SEO im
 **Last Updated:** March 6, 2026  
 **Status:** ✅ Production Ready  
 **SEO Status:** ✅ Fully Optimized
+
+---
+
+<div align="center">
+
+### 🌟 Built with ❤️ by [Suraj Kumar](https://github.com/thesurajdev)
+
+**Professional Web Development | SEO Optimization | Custom Solutions**
+
+[![GitHub](https://img.shields.io/badge/GitHub-thesurajdev-181717?style=for-the-badge&logo=github)](https://github.com/thesurajdev)
+[![Website](https://img.shields.io/badge/Project-NKR_Associates-blue?style=for-the-badge&logo=google-chrome)](https://nkrandassociates.com)
+
+*If you found this project helpful, please consider giving it a ⭐ on GitHub!*
+
+</div>
