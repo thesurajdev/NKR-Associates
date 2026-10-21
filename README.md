@@ -1,281 +1,70 @@
-# NKR & Associates - Professional Accounting & Compliance Services
+# NKR & Associates
 
-[![Website](https://img.shields.io/badge/Website-Live-brightgreen)](https://nkrandassociates.com)
-[![SEO Optimized](https://img.shields.io/badge/SEO-Optimized-blue)](https://nkrandassociates.com)
-[![Mobile Friendly](https://img.shields.io/badge/Mobile-Friendly-orange)](https://nkrandassociates.com)
+Marketing website for NKR & Associates, an accounting and compliance firm in New Delhi. Built to rank for local searches and turn visitors into WhatsApp enquiries.
 
-Professional accounting and compliance services firm website with 7+ years of expertise in bookkeeping, GST registration, ITR filing, and complete business compliance solutions for companies across India.
+**Live site:** [nkrandassociates.com](https://nkrandassociates.com)
 
-## 🌟 Features
+Built by [Suraj Dev](https://www.surajdev.com) for NKR & Associates, shown here with the client's permission.
 
-### Core Services Showcased
-- **Bookkeeping Services** - Professional financial record management
-- **GST Registration & Compliance** - Complete GST solutions
-- **ITR Filing & Taxation** - Tax return filing services
-- **Accounting & Finalization** - Year-end closing and financial statements
-- **Payroll & TDS Compliance** - Payroll processing and TDS management
-- **Business Registrations & ROC** - Company incorporation support
-- **Start Business** - Various business structure registrations
-- **NGO Registration** - Trust, Society, Section 8 registrations
-- **Intellectual Property** - Trademark, Copyright, Patent services
-- **Government Licenses** - 18+ types of government licenses
-- **Audit & Assurance** - Financial, Internal, GST audits
-- **Advisory Services** - Professional business and tax advisory
-- **Technology Services** - Website development and logo design
-- **Legal Agreements** - Comprehensive legal documentation
+<!-- Add 2-3 screenshots here: hero section, services modal, mobile view -->
 
-### Website Features
-- ✅ **Responsive Design** - Mobile-first, works on all devices
-- ✅ **WhatsApp Integration** - Floating WhatsApp widget for instant contact
-- ✅ **Custom Cursor** - Enhanced desktop user experience
-- ✅ **Smooth Animations** - Marquee text, scroll animations, sliders
-- ✅ **Interactive FAQ** - Accordion-style frequently asked questions
-- ✅ **Service Categories** - Modal-based service details
-- ✅ **Client Logos** - Infinite scroll logo carousel
-- ✅ **Testimonials** - Client review showcase
-- ✅ **Contact Section** - Complete contact information and CTAs
-- ✅ **Preloader** - Enhanced page loading experience
+## What the site covers
 
-## 🚀 SEO Optimization
+The firm offers bookkeeping, GST registration and compliance, ITR filing, accounting and finalisation, payroll and TDS, business registration and ROC work, NGO registration, intellectual property, government licences, audit and assurance, advisory, and legal agreements. The site groups these into service categories, each opening a modal with the details.
 
-### Technical SEO
-- ✅ **Comprehensive Meta Tags** - Title, description, keywords, robots
-- ✅ **Open Graph Tags** - Optimized for Facebook sharing
-- ✅ **Twitter Cards** - Enhanced Twitter previews
-- ✅ **Canonical URLs** - Prevent duplicate content
-- ✅ **Geo Tags** - Local SEO for Delhi region
-- ✅ **Theme Color** - Mobile browser customization
+## What's on the page
 
-### Structured Data (Schema.org)
-- ✅ **ProfessionalService Schema** - Complete business markup
-- ✅ **WebSite Schema** - Site-level information
-- ✅ **FAQPage Schema** - Rich snippet eligibility for FAQs
-- ✅ **BreadcrumbList Schema** - Navigation structure
-- ✅ **Service Catalog** - 6 main services in structured format
+- Mobile-first layout that works from phones to desktops
+- Custom cursor on desktop, plus scroll animations and a text marquee
+- Floating WhatsApp button for instant enquiries
+- Service categories with modals
+- FAQ accordion
+- Scrolling client logos and a testimonials section
+- Contact section, and a preloader for first paint
 
-### Performance
-- ✅ **Image Optimization** - WebP format, lazy loading, dimensions
-- ✅ **Preconnect/DNS Prefetch** - Faster external resource loading
-- ✅ **Browser Caching** - Configured via .htaccess
-- ✅ **GZIP Compression** - Reduced file sizes
-- ✅ **Clean URLs** - SEO-friendly URL structure
+## SEO work
 
-### Files Included
-- `sitemap.xml` - Complete XML sitemap for search engines
-- `robots.txt` - Search engine crawling directives
-- `.htaccess` - Server configuration for performance and security
-- Structured data in JSON-LD format
+This is the part I'd point a client to.
 
-### SEO Features
-- 🎯 Keyword-rich H1 heading
-- 🎯 Descriptive image alt texts
-- 🎯 Proper heading hierarchy (H1-H6)
-- 🎯 Internal linking structure
-- 🎯 Mobile-responsive design
-- 🎯 Fast page load speed
-- 🎯 Security headers
-- 🎯 Local SEO optimization
+**Structured data (JSON-LD):** `ProfessionalService`, `WebSite`, `FAQPage`, `BreadcrumbList` and a catalogue of the six main services, so Google can read what the firm does and show FAQ rich results.
 
-## 📁 Project Structure
+**Technical setup:** title and meta description, Open Graph and Twitter cards, canonical URLs, geo tags for Delhi, `sitemap.xml`, `robots.txt` and a Google Search Console verification file.
+
+**Speed:** WebP images with lazy loading and explicit dimensions, preconnect and DNS prefetch for external resources, and GZIP compression and browser caching through `.htaccess`.
+
+<!-- Add measured results here once you've run them: Lighthouse scores for mobile and desktop, Core Web Vitals from Search Console, ranking or traffic change since launch. Use real numbers or leave this out. -->
+
+## Stack
+
+Plain HTML5, Tailwind CSS (via CDN) and vanilla JavaScript. No build step, no framework, no database.
 
 ```
 NKR-Associates/
-├── index.html                      # Main website file
-├── coming-soon.html                # Coming Soon Page
-├── sitemap.xml                     # XML sitemap for SEO
-├── robots.txt                      # Search engine directives
-├── .htaccess                       # Server configuration
-├── README.md                       # Project documentation
-├── SEO-OPTIMIZATION-REPORT.md      # Detailed SEO report
+├── index.html           main site
+├── coming-soon.html     coming-soon page
+├── sitemap.xml
+├── robots.txt
+├── .htaccess            compression, caching, security headers
+├── google*.html         Search Console verification
 └── media/
-    ├── logo.webp                   # Company logo
-    ├── client-logo/                # Client logos
-    └── [other images]              # Hero images, team photos
+    ├── logo.webp
+    ├── client-logo/     client logos
+    └── ...              hero images, team photos
 ```
 
-## 🛠️ Technologies Used
+## Run it locally
 
-- **HTML5** - Semantic markup
-- **Tailwind CSS** - Utility-first CSS framework (via CDN)
-- **JavaScript** - Vanilla JS for interactions
-- **WebP Images** - Optimized image format
-- **JSON-LD** - Structured data implementation
-- **Schema.org** - Rich snippets markup
-
-## 🌐 Browser Support
-
-- ✅ Chrome (latest)
-- ✅ Firefox (latest)
-- ✅ Safari (latest)
-- ✅ Edge (latest)
-- ✅ Mobile browsers (iOS Safari, Chrome Mobile)
-
-## 📱 Mobile Responsiveness
-
-The website is fully responsive and optimized for:
-- 📱 Mobile phones (320px - 767px)
-- 📱 Tablets (768px - 1023px)
-- 💻 Laptops (1024px - 1439px)
-- 🖥️ Desktops (1440px+)
-
-## 🚀 Deployment
-
-### Quick Start
-1. Clone the repository:
 ```bash
 git clone https://github.com/thesurajdev/NKR-Associates.git
-```
-
-2. Navigate to the project:
-```bash
 cd NKR-Associates
+python3 -m http.server 8000
+# open http://localhost:8000
 ```
 
-3. Open in browser:
-```bash
-# Simply open index.html in your browser
-# OR use a local server (recommended)
-python -m http.server 8000
-# OR
-npx serve
-```
+## Deploying
 
-### Production Deployment
-1. Upload all files to your web hosting
-2. Ensure `.htaccess` is supported (Apache servers)
-3. Enable HTTPS/SSL certificate
-4. Update canonical URLs in meta tags
-5. Submit `sitemap.xml` to Google Search Console
-6. Verify structured data with Google's Rich Results Test
+Upload the files to any Apache host. The `.htaccess` file needs Apache, so on other servers, set up compression and caching in the server config instead. After going live: turn on HTTPS, confirm the canonical URLs use the live domain, submit `sitemap.xml` in Google Search Console, and check the structured data with Google's [Rich Results Test](https://search.google.com/test/rich-results).
 
-## 📊 SEO Monitoring
-
-### Recommended Tools
-- **Google Search Console** - Monitor search performance
-- **Google Analytics 4** - Track user behavior
-- **PageSpeed Insights** - Check Core Web Vitals
-- **Schema Validator** - Verify structured data
-- **Mobile-Friendly Test** - Ensure mobile optimization
-
-### Post-Deployment Tasks
-1. ☐ Submit sitemap to Google Search Console
-2. ☐ Submit sitemap to Bing Webmaster Tools
-3. ☐ Create Google My Business listing
-4. ☐ Set up Google Analytics
-5. ☐ Monitor Core Web Vitals
-6. ☐ Build backlinks from relevant directories
-7. ☐ Encourage client reviews
-8. ☐ Create business citations
-
-## 📈 Performance Metrics
-
-### Expected Page Speed
-- **Lighthouse Score:** 90+ (Performance)
-- **First Contentful Paint:** < 1.8s
-- **Largest Contentful Paint:** < 2.5s
-- **Cumulative Layout Shift:** < 0.1
-- **Time to Interactive:** < 3.5s
-
-## 📞 Contact Information
-
-- **Website:** https://nkrandassociates.com
-- **Email:** info@nkrandassociates.com
-- **Phone:** +91 70420 33937
-- **WhatsApp:** [Chat Now](https://wa.me/917042033937)
-- **Location:** New Delhi, India
-
-## 🤝 Business Hours
-
-**Monday - Saturday:** 10:00 AM - 7:00 PM  
-**Sunday:** Closed
-
-## 📄 License
+## License
 
 © 2026 NKR & Associates. All rights reserved. The code and content are published here as a portfolio piece and are not licensed for reuse.
-
-## 👨‍💻 Developer & Credits
-
-**Developed & Designed by:** [Suraj Kumar](https://github.com/thesurajdev)
-
-### 🌟 About the Developer
-- **GitHub:** [@thesurajdev](https://github.com/thesurajdev)
-- **Role:** Full Stack Developer & SEO Specialist
-- **Expertise:** Web Development, SEO Optimization, UI/UX Design
-
-### 💼 Development Contributions
-- ✅ Complete website design and development
-- ✅ Full-stack implementation (Frontend + Backend logic)
-- ✅ Comprehensive SEO optimization (Technical + On-page)
-- ✅ Structured data implementation (Schema.org)
-- ✅ Performance optimization and caching strategies
-- ✅ Mobile-first responsive design
-- ✅ WhatsApp integration and custom features
-- ✅ Security implementation and best practices
-
-### 🤝 Connect with Suraj
-[![GitHub](https://img.shields.io/badge/GitHub-thesurajdev-181717?style=flat&logo=github)](https://github.com/thesurajdev)
-[![Portfolio](https://img.shields.io/badge/Portfolio-Visit-blue?style=flat&logo=google-chrome)](https://surajdev.com)
-
-*For web development and SEO services, feel free to reach out!*
-
-## 📝 Changelog
-
-### Version 2.0 (March 6, 2026)
-- ✅ Added comprehensive SEO optimization
-- ✅ Implemented structured data (4 types)
-- ✅ Added 13 new service categories
-- ✅ Integrated WhatsApp widget
-- ✅ Created sitemap.xml and robots.txt
-- ✅ Added .htaccess for performance
-- ✅ Optimized all images with lazy loading
-- ✅ Enhanced meta tags and Open Graph
-- ✅ Added FAQ schema for rich snippets
-- ✅ Improved mobile responsiveness
-
-### Version 1.0 (Initial Release)
-- ✅ Basic website structure
-- ✅ Core services showcase
-- ✅ Contact section
-- ✅ Client testimonials
-- ✅ Responsive design
-
-## 🔧 Maintenance
-
-### Regular Updates
-- Update `lastmod` dates in sitemap.xml when content changes
-- Monitor and respond to Google Search Console messages
-- Keep service offerings current
-- Update client testimonials regularly
-- Refresh blog content (when added)
-
-### Security
-- Keep all dependencies updated
-- Review and update .htaccess security headers
-- Monitor for broken links
-- Ensure SSL certificate is renewed
-- Regular backups
-
-## 📚 Additional Documentation
-
-See [SEO-OPTIMIZATION-REPORT.md](SEO-OPTIMIZATION-REPORT.md) for detailed SEO implementation report.
-
----
-
-**Last Updated:** March 6, 2026  
-**Status:** ✅ Production Ready  
-**SEO Status:** ✅ Fully Optimized
-
----
-
-<div align="center">
-
-### 🌟 Built with ❤️ by [Suraj Kumar](https://github.com/thesurajdev)
-
-**Professional Web Development | SEO Optimization | Custom Solutions**
-
-[![GitHub](https://img.shields.io/badge/GitHub-thesurajdev-181717?style=for-the-badge&logo=github)](https://github.com/thesurajdev)
-[![Website](https://img.shields.io/badge/Project-NKR_Associates-blue?style=for-the-badge&logo=google-chrome)](https://nkrandassociates.com)
-
-*If you found this project helpful, please consider giving it a ⭐ on GitHub!*
-
-</div>
