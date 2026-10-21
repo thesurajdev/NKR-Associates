@@ -191,7 +191,7 @@ npx serve
 
 ## 📄 License
 
-© 2026 NKR & Associates. All rights reserved.
+© 2026 NKR & Associates. All rights reserved. The code and content are published here as a portfolio piece and are not licensed for reuse.
 
 ## 👨‍💻 Developer & Credits
 
